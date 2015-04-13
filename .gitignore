@@ -1,0 +1,28 @@
+#Java specific
+*.jar
+*.class
+*.log
+
+#project specific
+del*
+
+#Idea
+*.iml
+*.ipr
+*.iws
+.idea
+out
+
+#For OS X:
+.DS_Store
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+/project/project
+/project/target
